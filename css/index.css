@@ -105,6 +105,12 @@ h2{
     line-height: 1.4rem;
 }
 
+@media (min-width: 72.5rem){
+    body{
+        
+    }
+}
+
 
 
 
