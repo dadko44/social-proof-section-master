@@ -1,0 +1,123 @@
+:root{
+    /* ***PRIMARY COLORS*** */
+    --very-dark-magenta: hsl(300, 43%, 22%);
+    --soft-pink: hsl(333, 80%, 67%);
+    /* ***NEUTRAL COLORS*** */
+    --dark-grayish-magenta: hsl(303, 10%, 53%);
+    --light-grayish-magenta: hsl(300, 24%, 96%);
+    --white: hsl(0, 0%, 100%);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    font-family: 'Spartan', sans-serif;
+    background-color: rgb(36, 36, 36);
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+main{
+    /* ***TEMPORARY - DELETE BEFORE DEPLOYING */
+    min-height: 1200px;
+    /* *** TEMPORARY END ****/
+    display:flex;
+    flex-direction: column;
+    max-width: 20.4375rem;
+    padding: 3.3rem 1.5rem 3rem 1.5rem;
+    margin:auto;
+    background-color: white;
+}
+section{
+    text-align: center;
+    color: var(--dark-grayish-magenta);
+    font-size: 0.9rem;
+}
+h1{
+    font-size: 1.95rem;
+    line-height: 2rem;
+    color: var(--very-dark-magenta);
+}
+.upper-section-wrapper{
+    margin-bottom: 1rem;
+}
+.header-message{
+    line-height: 1.5rem;
+}
+.ratings-list{
+    margin-top: 2.5rem;
+    text-align: center; 
+    font-weight: 700;
+    font-size: 0.8rem;
+    color: var(--very-dark-magenta);
+}
+.rating-listing{
+    max-height: 3rem;
+    margin: 1rem 0 1rem 0;
+    background-color: var(--light-grayish-magenta);
+    border-radius: 0.5rem;
+    padding: 1rem 0 1rem 0;
+    
+}
+.stars-rating-wrapper{
+    display: flex;
+    margin: auto;
+    max-width: 7.5rem;
+    margin-bottom: 1rem;
+}
+.star-icon{
+    margin:auto;
+    max-width: 1.2rem;
+    max-height: auto;
+}
+
+.review-wrapper{
+    background-color: var(--very-dark-magenta);
+    border-radius: 0.5rem;
+    color: var(--white);
+    font-size: 0.8rem;
+    padding: 1.9rem 2rem 1rem 1.9rem;
+    margin-bottom: 1rem;
+}
+.review-author-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+.user-avatar{
+    margin: auto 0 auto 0;
+    border-radius: 50%;
+    width: 2.5rem;
+}
+h2{
+    margin-left: 1.5rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    line-height: 1.3rem;
+}
+.verified-badge{
+    color: var(--soft-pink);
+    font-weight: 400;
+}
+.review-text{
+    line-height: 1.4rem;
+}
+
+
+
+
+
+
+
+
+
+
+/* .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+} */
